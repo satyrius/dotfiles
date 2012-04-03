@@ -1,5 +1,6 @@
 *.DS_Store
-*.swp
+*.sw[p|o]
+*.ses
 tags
 *.pyc
 *.ropeproject
