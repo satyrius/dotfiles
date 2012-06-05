@@ -17,6 +17,10 @@ source /usr/local/share/python/virtualenvwrapper.sh
 
 export PYTHONSTARTUP=~/.dotfiles/pythonrc
 
+source ~/.dotfiles/git-completion.sh
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
 alias brdiff='git log --format=format:"%Cblue%h%Creset %Cgreen%an%Creset %s" --no-merges --reverse'
 alias cdd='cd $(python -c "import django, os.path; print os.path.dirname(django.__file__)")'
 alias pyclean="find . -type f -name '*.py[co]' -delete"
+alias vd='vim $(git diff --name-only | sort -u)'
