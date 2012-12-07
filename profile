@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin:/usr/local/share/python:$PATH"
+export PATH="/usr/local/bin:/usr/local/share/python:/usr/local/Cellar/gems/1.9.1/bin:/usr/local/Cellar/imagemagick/6.7.5-7/bin:$PATH"
 
 export LC_CTYPE=ru_RU.UTF-8
 
@@ -23,4 +23,6 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 alias brdiff='git log --format=format:"%Cblue%h%Creset %Cgreen%an%Creset %s" --no-merges --reverse'
 alias cdd='cd $(python -c "import django, os.path; print os.path.dirname(django.__file__)")'
 alias pyclean="find . -type f -name '*.py[co]' -delete"
+alias swpclean="find . -type f -name '*.swp' -delete"
 alias vd='vim $(git diff --name-only | sort -u)'
+alias vnow='vim `date "+%Y%m%d_%H%M"`'
