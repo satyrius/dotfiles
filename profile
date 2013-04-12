@@ -1,4 +1,6 @@
-export PATH="/usr/local/bin:/usr/local/share/python:/usr/local/Cellar/gems/1.9.1/bin:/usr/local/Cellar/imagemagick/6.7.5-7/bin:$PATH"
+export PATH="/usr/local/Cellar/imagemagick/6.8.0-10/bin:$PATH"
+export PATH="/usr/local/Cellar/gems/1.9.1/bin/:$PATH"
+export PATH="/usr/local/bin:/usr/local/share/python:/usr/local/opt/ruby/bin:$PATH"
 
 export LC_CTYPE=ru_RU.UTF-8
 
