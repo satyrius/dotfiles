@@ -28,3 +28,5 @@ alias pyclean="find . -type f -name '*.py[co]' -delete"
 alias swpclean="find . -type f -name '*.swp' -delete"
 alias vd='vim $(git diff --name-only | sort -u)'
 alias vnow='vim `date "+%Y%m%d_%H%M"`'
+alias ll='ls -alF'
+alias la='ls -A'
