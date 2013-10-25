@@ -17,7 +17,7 @@ source /usr/local/share/python/virtualenvwrapper.sh
 export PYTHONSTARTUP=~/.dotfiles/pythonrc
 
 source ~/.dotfiles/git-completion.sh
-PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+PS1='[\u@\h \W]\$ '
 
 alias brdiff='git log --format=format:"%Cblue%h%Creset %Cgreen%an%Creset %s" --no-merges --reverse'
 alias cdd='cd $(python -c "import django, os.path; print os.path.dirname(django.__file__)")'
