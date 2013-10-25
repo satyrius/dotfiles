@@ -20,6 +20,7 @@ source ~/.dotfiles/git-completion.sh
 PS1='[\u@\h \W]\$ '
 
 alias brdiff='git log --format=format:"%Cblue%h%Creset %Cgreen%an%Creset %s" --no-merges --reverse'
+alias gl='git log --format="%Cblue%h %Creset%ci %Cred%s" --no-merges'
 alias cdd='cd $(python -c "import django, os.path; print os.path.dirname(django.__file__)")'
 alias pyclean="find . -type f -name '*.py[co]' -delete"
 alias swpclean="find . -type f -name '*.swp' -delete"
