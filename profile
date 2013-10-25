@@ -1,4 +1,5 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#export GEM_HOME="$(brew --prefix)/Cellar/gems/1.9.1"
 
 export PATH="/usr/local/bin:/usr/local/share/python:/usr/local/Cellar/imagemagick/6.8.0-10/bin:$PATH"
 
@@ -7,7 +8,6 @@ export LC_CTYPE=ru_RU.UTF-8
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export GEM_HOME="$(brew --prefix)/Cellar/gems/1.9.1"
 
 # Setup virtualenvwrapper and use pip with it
 export WORKON_HOME=$HOME/.virtualenvs
