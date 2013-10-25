@@ -4,7 +4,7 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
-	editor = /usr/local/bin/vim
+	editor = vim
 	pager = less
 [color]
 	ui = auto
