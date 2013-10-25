@@ -5,9 +5,6 @@ export PATH="/usr/local/bin:$PATH"
 
 export LC_CTYPE=ru_RU.UTF-8
 
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
-
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Projects
@@ -17,6 +14,9 @@ export PYTHONSTARTUP=~/.dotfiles/pythonrc
 
 source ~/.dotfiles/git-completion.sh
 PS1='[\u@\h \W]\$ '
+
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
 
 alias brdiff='git log --format=format:"%Cblue%h%Creset %Cgreen%an%Creset %s" --no-merges --reverse'
 alias gl='git log --format="%Cblue%h %Creset%ci %Cred%s" --no-merges'
