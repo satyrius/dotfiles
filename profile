@@ -9,10 +9,9 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 
-# Setup virtualenvwrapper and use pip with it
 export WORKON_HOME=$HOME/.virtualenvs
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-source /usr/local/share/python/virtualenvwrapper.sh
+export PROJECT_HOME=$HOME/Projects
+source /usr/local/bin/virtualenvwrapper.sh
 
 export PYTHONSTARTUP=~/.dotfiles/pythonrc
 
