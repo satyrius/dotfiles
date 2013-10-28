@@ -13,7 +13,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 export PYTHONSTARTUP=~/.dotfiles/pythonrc
 
 source ~/.dotfiles/git-completion.sh
-PS1='[\u@\h \W]\$ '
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
